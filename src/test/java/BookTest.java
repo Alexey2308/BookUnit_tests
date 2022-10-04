@@ -23,7 +23,7 @@ class BookTest {
     @Test
     void up() {
         if (testbook.raiting < 5) {
-            int expResult = 2;
+            int expResult = 3;
             int actualResult = testbook.raiting++;
             Assertions.assertEquals(expResult, actualResult);
             System.out.println("Тест метода 'up' пройден");
